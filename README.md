@@ -1,6 +1,6 @@
 # Adaptive Layered Encryption using Graph-Based Path Optimization
 
-## 📖 Overview
+## Overview
 This project presents an **adaptive multi-layer encryption system** that integrates **graph theory** with **cryptographic techniques**.  
 The goal is to secure data transmission in a network by dynamically adjusting the **encryption strength** based on the **number of hops (intermediate nodes)** between sender and receiver.
 
