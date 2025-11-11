@@ -1,4 +1,4 @@
-# 🔐 Adaptive Layered Encryption using Graph-Based Path Optimization
+# Adaptive Layered Encryption using Graph-Based Path Optimization
 
 ## 📖 Overview
 This project presents an **adaptive multi-layer encryption system** that integrates **graph theory** with **cryptographic techniques**.  
@@ -8,7 +8,7 @@ The system intelligently selects encryption layers depending on the path length 
 
 ---
 
-## 🧩 Core Idea
+## Core Idea
 In traditional encryption systems, the same encryption strength is used for all communications, regardless of how complex or long the path is.  
 This project introduces **context-aware encryption**, where the system automatically adjusts encryption layers according to the **network topology**.
 
@@ -20,7 +20,7 @@ This project introduces **context-aware encryption**, where the system automatic
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 - **Language:** Python  
 - **Libraries Used:**
   - `NetworkX` → Graph creation & shortest path determination  
@@ -30,7 +30,7 @@ This project introduces **context-aware encryption**, where the system automatic
 
 ---
 
-## 🧮 Algorithms Implemented
+## Algorithms Implemented
 - **Caesar Cipher** – Basic shift cipher  
 - **Affine Cipher** – Linear transformation cipher  
 - **RSA** – Public-key encryption for strong security  
@@ -39,7 +39,7 @@ This project introduces **context-aware encryption**, where the system automatic
 
 ---
 
-## 🧠 Methodology
+## Methodology
 1. **Graph Creation:** Define a network with nodes (users/routers) and edges (connections).  
 2. **Path Selection:** Determine the shortest path between sender (Alice) and receiver (Bob).  
 3. **Layer Selection:** Automatically decide encryption layers based on hop count.  
@@ -49,7 +49,7 @@ This project introduces **context-aware encryption**, where the system automatic
 
 ---
 
-## 📊 Results and Discussion
+## Results and Discussion
 - Encryption strength increases with the number of hops.  
 - 100% decryption accuracy across all test cases.  
 - Minimal computational overhead even for four-layer encryption.  
@@ -57,7 +57,7 @@ This project introduces **context-aware encryption**, where the system automatic
 
 ---
 
-## 🔐 Security Highlights
+## Security Highlights
 - Demonstrates weaknesses of classical ciphers (Caesar, Affine).  
 - Integrates RSA for robust public-key protection.  
 - Adds noise-based randomization to resist frequency analysis.  
