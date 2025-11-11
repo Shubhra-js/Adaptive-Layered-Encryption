@@ -65,15 +65,3 @@ This project introduces **context-aware encryption**, where the system automatic
 
 ---
 
-## 📈 Future Enhancements
-- Add **visual interface (Streamlit)** to demonstrate encryption visually.  
-- Implement **hybrid encryption** (RSA + symmetric keys).  
-- Extend to **IoT and distributed systems** for real-world applications.  
-- Introduce **key exchange mechanisms** (Diffie–Hellman, PKI).
-
----
-
-## 🧪 How to Run
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/<your-username>/Adaptive-Layered-Encryption.git
